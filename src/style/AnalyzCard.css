@@ -1,0 +1,30 @@
+.anlyzCard{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.anlyzCard h2{
+    color: var(--neutral-100, #1D1E25);
+
+    width: 249px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+}
+.anlyzCard p{
+        color: var(--neutral-60, #7E8492);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 268px;
+}
+@media(max-width:550px){
+    .anlyzCard{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

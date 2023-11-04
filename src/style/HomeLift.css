@@ -1,0 +1,39 @@
+.lift{
+    margin-top: 80px;
+}
+.lift h1{
+    color: var(--neutral-100, #1D1E25);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 67.2px */
+    letter-spacing: -2px;
+    width: 672px;
+
+}
+.lift p{
+    color: var(--neutral-60, #7E8492);
+
+    width: 421px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+.lift__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:860px){
+    .lift__wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .lift h1{
+        width: auto;
+    }
+    .lift p{
+        width: auto;
+    }
+}

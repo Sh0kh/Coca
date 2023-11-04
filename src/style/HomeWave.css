@@ -1,0 +1,59 @@
+.wave{
+    margin-top: 250px;
+}
+.wave__content h1{
+    color: var(--neutral-100, #1D1E25);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 76.8px */
+    margin-bottom: 35px;
+}
+.wave__text p{
+    width: 543px;
+    color: var(--neutral-100, #1D1E25);
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px; /* 141.667% */
+}
+.wave__btn{
+    color: var(--neutral-10, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    display: flex;
+    width: 177px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--neutral-100, #1D1E25);
+    border: none;
+    cursor: pointer;
+}
+.wave__text{
+    display: flex;
+    gap: 25px;
+}
+.wave__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:950px){
+    .wave__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
+@media(max-width:650px){
+    .wave__text p{
+        width:  auto;
+    }
+}

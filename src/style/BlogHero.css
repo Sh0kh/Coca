@@ -1,0 +1,31 @@
+.blogHero{
+    margin-top: 100px;
+}
+.blogHero h1{
+    color: var(--neutral-100, #1D1E25);
+    text-align: center;
+    width: 903px;
+    margin: 0 auto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 86.4px */
+    letter-spacing: -3px;
+    margin-bottom: 56px;
+    margin-top: 30px;
+}
+.blogHero span{
+    color: var(--primary-color, #1463FF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    display: block;
+    cursor: pointer;
+}
+@media(max-width:950px){
+    .blogHero h1{
+        width: auto;
+    }
+}

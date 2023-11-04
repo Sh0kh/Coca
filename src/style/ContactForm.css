@@ -1,0 +1,113 @@
+.form{
+    margin-top: 270px;
+}
+.form__content h1{
+    color: var(--neutral-100, #1D1E25);
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+    margin-bottom: 20px;
+}
+.form__content p {
+    color: var(--neutral-60, #7E8492);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.form__content p span{
+    color: var(--primary-color, #1463FF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.form__grid{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+form label{
+    color: var(--neutral-100, #1D1E25);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 30px;
+}
+form input{
+    color: var(--neutral-60, #7E8492);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    width: 214px;
+    height: 24px;
+    margin-bottom: 30px;
+}
+.form__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.form__img img{
+    width: 800px;
+}
+form button{
+    color: var(--neutral-10, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    display: flex;
+    width: 167px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px
+    ;
+    border-radius: 100px;
+background: var(--neutral-100, #1D1E25);
+border: none;
+cursor: pointer;
+margin-top: 60px;
+}
+@media(max-width:1270px){
+    .form__img img{
+        width: 700px;
+    }
+}
+@media(max-width:1150px){
+    .form__img img{
+        width: 600px;
+    }
+}
+@media(max-width:1150px){
+   .form__wrapper{
+    flex-direction: column;
+   }
+}
+@media(max-width:620px){
+   .form__img img{
+    width: 500px;
+   }
+   .form__grid{
+    flex-direction: column;
+    gap: 30px;
+   }
+}
+@media(max-width:520px){
+   .form__img img{
+    width: 400px;
+   }
+}
+@media(max-width:420px){
+   .form__img img{
+    width: 300px;
+   }
+}

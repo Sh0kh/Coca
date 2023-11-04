@@ -1,0 +1,124 @@
+.HomeHero__content h1{
+    color: var(--neutral-100, #1D1E25);
+    font-feature-settings: 'calt' off;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 96px */
+    letter-spacing: -3px;
+    margin-bottom: 114px;
+}
+.HomeHero__text {
+    display: flex;
+    gap: 30px
+    ;
+    margin-bottom: 70px;
+}
+.hero__text__lin{
+    width: 76px;
+height: 1px;
+background: #000;
+margin-top: 22px;
+}
+.HomeHero__text p{
+    color: var(--neutral-100, #1D1E25);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -1px;
+    width: 514px;
+}
+.HomeHero__btn {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    margin-bottom: 100px;
+}
+.HomeHero__btn button{
+    display: flex;
+    width: 175px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: #1D1E25;
+    color: var(--neutral-10, #FFF);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+.HomeHero__btn span {
+    cursor: pointer;
+}
+.HomeHero__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.HomeHero__img{
+    position: relative;
+}
+.HomeHero_1{
+    position: absolute;
+    top: -45px;
+    right: -25px;
+}
+.HomeHero__img img{
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .HomeHero__wrapper{
+        flex-direction: column;
+
+    }
+}
+@media(max-width:1000px){
+    .HomeHero__wrapper{
+        flex-direction: column;
+
+    }
+    .HomeHero_1{
+        right: 20px;
+    }
+}
+@media(max-width:550px){
+    .HomeHero_2{
+        width: 380px;
+    }
+    .HomeHero_1{
+        width: 217px;
+    }
+    .HomeHero_3{
+        width: 380px;
+    }
+    .HomeHero__text p {
+        width: auto;
+    }
+    .HomeHero__content h1{
+        font-size: 50px;
+    }
+    .HomeHero_1{
+        right: 20px;
+    }
+}
+@media(max-width:350px){
+    .HomeHero__btn{
+        flex-direction: column;
+        gap: 50px
+        ;
+    }
+    .HomeHero_2{
+        width: 280px;
+    }
+    .HomeHero_1{
+        width: 117px;
+    }
+    .HomeHero_3{
+        width: 280px;
+    }
+}

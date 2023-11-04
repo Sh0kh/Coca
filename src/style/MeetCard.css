@@ -1,0 +1,18 @@
+.card__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.meetCard p{
+    color: var(--neutral-60, #7E8492);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+@media(max-width:380px){
+ .person{
+    width: 250px;
+ }   
+}
